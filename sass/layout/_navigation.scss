@@ -1,0 +1,77 @@
+//hamburger icon n
+.nav-toggle {
+    display: block;
+    position: absolute;
+    padding: 1em .5em;
+    top: 0;
+    right: 0;
+    margin: .5em .5em;
+    cursor: pointer;
+}
+
+.hamburger,.hamburger::before,.hamburger::after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2px;
+    background: $text-main;
+    transition: all ease-in-out 500ms;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.hamburger.is-open {
+    transform: rotate(45deg);
+    transition: 450ms;
+    width: 1.5rem;
+
+    &::before {
+        opacity: 0;
+    }
+
+    &::after {
+        transform: rotate(-90deg) translate(3px);
+        width: 1.5rem;
+    }
+}
+
+
+ .main-nav{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: $nav-bg;
+    height: 100vh;
+    transform-origin: top;
+    transform: scale(1,0);
+    transition: all ease-in-out 500ms;
+}
+.nav-items {
+    font-weight: $font-light;
+
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: $text-inverse;
+    border-bottom: 1px solid $text-light;
+    display: block;
+    padding: .5em;
+    &:hover {
+        background: $text-light;
+        color: $text-main;
+    }
+}
+.is-open{
+    display:block;
+    transform: scale(1,1);
+}
+

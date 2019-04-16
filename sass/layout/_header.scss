@@ -1,0 +1,10 @@
+header {
+    background: $nav-bg;
+    padding: 1em;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    font-weight: $font-dark;
+    z-index: 999;
+}

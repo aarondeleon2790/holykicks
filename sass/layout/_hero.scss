@@ -1,0 +1,26 @@
+.hero {
+    background: url('../resources/images/jordan.jpg') no-repeat center;
+    background-size: cover;
+    background-color: rgb(212, 205, 205);
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    color: $text-inverse;
+    text-align: center;
+}
+
+.hero.flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading, .sub-heading {
+    font-weight: $font-light;
+    margin: 0;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+}
+
+

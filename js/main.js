@@ -1,8 +1,4 @@
 //---------------- load screen 
-
-
-
-
   function id(v){
       return document.getElementById(v)
     };

@@ -469,7 +469,7 @@ header {
 }
 
 .hero {
-  background: url("../resources/images/jordan.jpg") no-repeat center;
+  background: url("//unsplash.it/1000/1000") no-repeat center;
   background-size: cover;
   background-color: #d4cdcd;
   background-blend-mode: multiply;

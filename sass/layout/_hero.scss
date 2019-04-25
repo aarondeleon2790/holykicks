@@ -1,26 +1,44 @@
-.hero {
-    background: url('//unsplash.it/1000/1000') no-repeat center;
-    background-size: cover;
-    background-color: rgb(212, 205, 205);
-    background-blend-mode: multiply;
-    height: 100vh;
+.target__this {
+    height: 60vh;
     width: 100%;
-    color: $text-inverse;
-    text-align: center;
 }
 
-.hero.flex {
-    justify-content: center;
-    align-items: center;
+@media (min-width: 768px) and (max-width: 991.98px) { .target__this {
+    height: 100vh;
+}}
+
+@media (min-width: 992px) and (max-width: 1199.98px)  { .target__this {
+    height: 100vh;
+}}
+
+@media (min-width: 1200px) { .target__this {
+    height: 100vh;
+}}
+
+.bg_one{
+    background: url('../resources/images/jordan2.jpg') no-repeat center;
+    background-size: cover;
+    background-color: rgb(216, 216, 216);
+    background-blend-mode: multiply;
+
+    h1,p{
+        text-shadow: 1px 1px 10px #000;
+    }
+}
+.bg__two {
+    background: url('../resources/images/clean.jpg') no-repeat center;
+    background-size: cover;
+    h6{
+        text-shadow: 1px 1px 10px #000;
+    }
 }
 
-.main-heading, .sub-heading {
-    font-weight: $font-light;
-    margin: 0;
+.bg__three {
+    background: url('../resources/images/bottle.jpg') no-repeat center;
+    background-size: cover;
 }
 
-.main-heading {
-    font-size: 2.5rem;
+.my__container {
+    width: 100%;
+    height: 100%;
 }
-
-

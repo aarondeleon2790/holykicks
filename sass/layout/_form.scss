@@ -1,0 +1,20 @@
+.contact_form {
+    padding: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px){
+    .contact_form{
+        width: 100%;
+    } 
+    
+    .contact_btn{
+        display:block;
+        width: 100%;
+    }
+}
+
+.alert {
+    display: none;
+}

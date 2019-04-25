@@ -6,7 +6,8 @@
 
 
 // 2. vendor
-@import 'vendor/normalize';
+@import 'vendor/boostrap';
+
 
 // 3. base
 @import 'base/base';
@@ -16,6 +17,10 @@
 @import 'layout/header';
 @import 'layout/navigation';
 @import 'layout/hero';
+@import 'layout/product';
+@import 'layout/connect';
+@import 'layout/footer';
+@import 'layout/form';
 
 
 // 5. components
